@@ -4,7 +4,7 @@ using System.Data.OleDb;
 
 namespace tsenacsharp.Models
 {
-    internal class Market : BaseModel
+    public class Market : BaseModel
     {
         public int Id { get; set; }
         public string Nom { get; set; }
@@ -56,10 +56,10 @@ namespace tsenacsharp.Models
                         return new Market(
                             reader.GetInt32(0),   // id
                             reader.GetString(1),  // nom
-                            reader.GetDouble(2),  // longueur
-                            reader.GetDouble(3),  // largeur
-                            reader.GetDouble(4),  // x
-                            reader.GetDouble(5)   // y
+                            reader.GetInt32(2),  // longueur
+                            reader.GetInt32(3),  // largeur
+                            reader.GetInt32(4),  // x
+                            reader.GetInt32(5)   // y
                         );
                     }
                 }

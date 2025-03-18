@@ -1,17 +1,27 @@
+using System;
+using System.Data.OleDb;
+using System.Windows.Forms;
+using tsenacsharp.DB;
+
 namespace tsenacsharp
 {
-    internal static class Program
+    static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            OleDbConnection dbConnection = AccessDB.GetConnection();
+
+            if (dbConnection != null)
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new MainForm(dbConnection));
+            }
+            else
+            {
+                MessageBox.Show("Impossible de se connecter à la base de données.");
+            }
         }
     }
 }

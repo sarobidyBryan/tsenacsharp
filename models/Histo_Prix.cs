@@ -4,7 +4,7 @@ using System.Data.OleDb;
 
 namespace tsenacsharp.Models
 {
-    internal class HistoPrix:BaseModel
+    public class HistoPrix:BaseModel
     {
         public int Id { get; set; }
         public int IdMarket { get; set; }
@@ -49,7 +49,8 @@ namespace tsenacsharp.Models
 
             if (histoPrixData.Count > 0)
             {
-                var hp = histoPrixData[histoPrixData.Count - 1]; // Dernier élément de la liste
+                var hp = histoPrixData[histoPrixData.Count - 1]; 
+
                 return new HistoPrix(
                     Convert.ToInt32(hp[0]),
                     Convert.ToInt32(hp[1]),

@@ -3,8 +3,132 @@
   "WorkspaceRootPath": "D:\\ITU\\prog\\tsenacsharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\view\\debtsummaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\debtsummaryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\view\\marketview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\marketview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|D:\\ITU\\prog\\tsenacsharp\\view\\marketview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\marketview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\view\\boxdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\boxdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|D:\\ITU\\prog\\tsenacsharp\\view\\boxdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\boxdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\services\\payement_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:services\\payement_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\models\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:models\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\view\\boxdisplay.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\boxdisplay.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\db\\script.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:db\\script.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\view\\marketview.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\marketview.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\view\\listepayements.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\listepayements.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|D:\\ITU\\prog\\tsenacsharp\\view\\listepayements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\listepayements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|D:\\ITU\\prog\\tsenacsharp\\view\\paiementview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\paiementview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|D:\\ITU\\prog\\tsenacsharp\\view\\listepersonne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\listepersonne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|D:\\ITU\\prog\\tsenacsharp\\view\\marketdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\marketdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\view\\listepayements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\listepayements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\view\\listepersonne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\listepersonne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\view\\marketdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\marketdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\view\\paiementview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:view\\paiementview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\services\\situationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:services\\situationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\models\\payement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:models\\payement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:models\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\models\\marketbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:models\\marketbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\models\\histo_prix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:models\\histo_prix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\models\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:models\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|d:\\itu\\prog\\tsenacsharp\\db\\accessdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683D44CA-E277-438B-8949-5670FE6B26BE}|tsenacsharp.csproj|solutionrelative:db\\accessdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +138,391 @@
       "DocumentGroups": [
         {
           "DockedWidth": 777,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "BoxDisplay.resx",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\BoxDisplay.resx",
+              "RelativeDocumentMoniker": "view\\BoxDisplay.resx",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\BoxDisplay.resx",
+              "RelativeToolTip": "view\\BoxDisplay.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-03-18T17:01:59.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BoxDisplay.cs [Conception]",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\BoxDisplay.cs",
+              "RelativeDocumentMoniker": "view\\BoxDisplay.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\BoxDisplay.cs [Conception]",
+              "RelativeToolTip": "view\\BoxDisplay.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T12:22:23.885Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-18T12:13:39.69Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "script.sql",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\db\\script.sql",
+              "RelativeDocumentMoniker": "db\\script.sql",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\db\\script.sql",
+              "RelativeToolTip": "db\\script.sql",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-18T10:45:27.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DebtSummaryForm.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\DebtSummaryForm.cs",
+              "RelativeDocumentMoniker": "view\\DebtSummaryForm.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\DebtSummaryForm.cs",
+              "RelativeToolTip": "view\\DebtSummaryForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T05:10:26.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BoxDisplay.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\BoxDisplay.cs",
+              "RelativeDocumentMoniker": "view\\BoxDisplay.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\BoxDisplay.cs",
+              "RelativeToolTip": "view\\BoxDisplay.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEQAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T23:57:48.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAvwEUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T21:34:58.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MarketView.resx",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\MarketView.resx",
+              "RelativeDocumentMoniker": "view\\MarketView.resx",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\MarketView.resx",
+              "RelativeToolTip": "view\\MarketView.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-03-13T21:28:47.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListePayements.resx",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\ListePayements.resx",
+              "RelativeDocumentMoniker": "view\\ListePayements.resx",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\ListePayements.resx",
+              "RelativeToolTip": "view\\ListePayements.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-03-13T21:08:32.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ListePayements.cs [Conception]",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\ListePayements.cs",
+              "RelativeDocumentMoniker": "view\\ListePayements.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\ListePayements.cs [Conception]",
+              "RelativeToolTip": "view\\ListePayements.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T21:08:29.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MarketView.cs [Conception]",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\MarketView.cs",
+              "RelativeDocumentMoniker": "view\\MarketView.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\MarketView.cs [Conception]",
+              "RelativeToolTip": "view\\MarketView.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T21:00:01.83Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaiementView.cs [Conception]",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\PaiementView.cs",
+              "RelativeDocumentMoniker": "view\\PaiementView.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\PaiementView.cs [Conception]",
+              "RelativeToolTip": "view\\PaiementView.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:52:55.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListePersonne.cs [Conception]",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\ListePersonne.cs",
+              "RelativeDocumentMoniker": "view\\ListePersonne.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\ListePersonne.cs [Conception]",
+              "RelativeToolTip": "view\\ListePersonne.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:52:41.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MarketDisplay.cs [Conception]",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\MarketDisplay.cs",
+              "RelativeDocumentMoniker": "view\\MarketDisplay.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\MarketDisplay.cs [Conception]",
+              "RelativeToolTip": "view\\MarketDisplay.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:52:35.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ListePayements.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\ListePayements.cs",
+              "RelativeDocumentMoniker": "view\\ListePayements.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\ListePayements.cs",
+              "RelativeToolTip": "view\\ListePayements.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAewCEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:51:39.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ListePersonne.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\ListePersonne.cs",
+              "RelativeDocumentMoniker": "view\\ListePersonne.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\ListePersonne.cs",
+              "RelativeToolTip": "view\\ListePersonne.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:50:23.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MarketDisplay.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\MarketDisplay.cs",
+              "RelativeDocumentMoniker": "view\\MarketDisplay.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\MarketDisplay.cs",
+              "RelativeToolTip": "view\\MarketDisplay.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAQwJcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:49:43.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaiementView.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\PaiementView.cs",
+              "RelativeDocumentMoniker": "view\\PaiementView.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\PaiementView.cs",
+              "RelativeToolTip": "view\\PaiementView.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAUwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:51:01.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MarketView.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\view\\MarketView.cs",
+              "RelativeDocumentMoniker": "view\\MarketView.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\view\\MarketView.cs",
+              "RelativeToolTip": "view\\MarketView.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAWwM0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:48:28.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MainForm.Designer.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\MainForm.Designer.cs",
+              "RelativeToolTip": "MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T20:46:20.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "situationService.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\services\\situationService.cs",
+              "RelativeDocumentMoniker": "services\\situationService.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\services\\situationService.cs",
+              "RelativeToolTip": "services\\situationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T18:46:42.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T16:35:22.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "payement_service.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\services\\payement_service.cs",
+              "RelativeDocumentMoniker": "services\\payement_service.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\services\\payement_service.cs",
+              "RelativeToolTip": "services\\payement_service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:05:22.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Payement.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\models\\Payement.cs",
+              "RelativeDocumentMoniker": "models\\Payement.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\models\\Payement.cs",
+              "RelativeToolTip": "models\\Payement.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwC4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:04:12.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Tenant.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\models\\Tenant.cs",
+              "RelativeDocumentMoniker": "models\\Tenant.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\models\\Tenant.cs",
+              "RelativeToolTip": "models\\Tenant.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAADwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:04:03.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MarketBox.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\models\\MarketBox.cs",
+              "RelativeDocumentMoniker": "models\\MarketBox.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\models\\MarketBox.cs",
+              "RelativeToolTip": "models\\MarketBox.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:03:54.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Histo_Prix.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\models\\Histo_Prix.cs",
+              "RelativeDocumentMoniker": "models\\Histo_Prix.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\models\\Histo_Prix.cs",
+              "RelativeToolTip": "models\\Histo_Prix.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:03:43.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Discount.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\models\\Discount.cs",
+              "RelativeDocumentMoniker": "models\\Discount.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\models\\Discount.cs",
+              "RelativeToolTip": "models\\Discount.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:03:27.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "models\\BaseModel.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\models\\BaseModel.cs",
+              "RelativeToolTip": "models\\BaseModel.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAC8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:03:01.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Location.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\models\\Location.cs",
+              "RelativeDocumentMoniker": "models\\Location.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\models\\Location.cs",
+              "RelativeToolTip": "models\\Location.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:02:10.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Market.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\models\\Market.cs",
+              "RelativeDocumentMoniker": "models\\Market.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\models\\Market.cs",
+              "RelativeToolTip": "models\\Market.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwC8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:01:57.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Box.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\models\\Box.cs",
+              "RelativeDocumentMoniker": "models\\Box.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\models\\Box.cs",
+              "RelativeToolTip": "models\\Box.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAADwv6AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:01:45.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AccessDB.cs",
+              "DocumentMoniker": "D:\\ITU\\prog\\tsenacsharp\\db\\AccessDB.cs",
+              "RelativeDocumentMoniker": "db\\AccessDB.cs",
+              "ToolTip": "D:\\ITU\\prog\\tsenacsharp\\db\\AccessDB.cs",
+              "RelativeToolTip": "db\\AccessDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T12:35:43.595Z"
             }
           ]
         }

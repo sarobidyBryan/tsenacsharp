@@ -1,8 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <ItemGroup>
-        <Compile Update="Form1.cs">
-            <SubType>Form</SubType>
-        </Compile>
-    </ItemGroup>
+  <ItemGroup>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\BoxDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="view\DebtSummaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\ListePayements.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="view\ListePersonne.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="view\MarketDisplay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="view\MarketView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="view\PaiementView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>

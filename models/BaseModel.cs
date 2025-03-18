@@ -44,7 +44,7 @@ namespace tsenacsharp.Models
             {
                 sql += $" WHERE {condition}";
             }
-
+            //Console.WriteLine(sql);
             try
             {
                 using (OleDbCommand cmd = new OleDbCommand(sql, conn))

@@ -28,20 +28,14 @@ namespace tsenacsharp.Models
 
             try
             {
-                conn.Open();
                 var result = cmd.ExecuteScalar();
 
-                // Si un résultat est trouvé, on retourne la valeur, sinon on retourne 0
                 return result != null ? Convert.ToDouble(result) : 0;
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Erreur lors de l'exécution de la requête : " + ex.Message);
                 return 0;
-            }
-            finally
-            {
-                conn.Close();
             }
         }
     }

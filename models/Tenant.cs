@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.OleDb;
-using tsenacsharp.models;
 
 namespace tsenacsharp.Models
 {
-    internal class Tenant
+    public class Tenant
     {
         public int Id { get; set; }
         public string Nom { get; set; }

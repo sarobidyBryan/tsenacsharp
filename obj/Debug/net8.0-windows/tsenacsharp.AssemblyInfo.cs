@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tsenacsharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a30c43937e79fb99302eea72aac9d203d7c7a59")]
 [assembly: System.Reflection.AssemblyProductAttribute("tsenacsharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tsenacsharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

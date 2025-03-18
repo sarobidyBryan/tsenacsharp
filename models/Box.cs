@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Data.OleDb;
 using System.Linq;
-using tsenacsharp.models;
 
 namespace tsenacsharp.Models
 {
-    internal class Box : BaseModel
+    public class Box : BaseModel
     {
         public int Id { get; set; }
         public string Reference { get; set; }
@@ -45,9 +44,9 @@ namespace tsenacsharp.Models
 
         public static Box GetBoxById(OleDbConnection conn, int id)
         {
-            string query = "SELECT * FROM Box WHERE id = ?";
+           
             var parameters = new List<object> { id };
-            var result = BaseModel.ReadData(conn, query, "*", "id = ?", parameters);
+            var result = BaseModel.ReadData(conn, "Box", "*", "id = ?", parameters);
             if (result.Count > 0)
             {
                 return new Box(
@@ -62,25 +61,28 @@ namespace tsenacsharp.Models
             return null;
         }
 
-        public static int? GetReferenceById(OleDbConnection conn, int id)
+        public static int GetReferenceById(OleDbConnection conn, int id)
         {
-            string query = "SELECT reference FROM Box WHERE id = ?";
             var parameters = new List<object> { id };
-            var result = BaseModel.ReadData(conn, query, "reference", "id = ?", parameters);
-            return result.Count > 0 ? (int?)Convert.ToInt32(result[0][0]) : null;
+            var result = BaseModel.ReadData(conn, "Box", "reference", "id = ?", parameters);
+            if (result.Count > 0 && int.TryParse(result[0][0].ToString(), out int reference))
+            {
+                return reference;
+            }
+            return -1; 
         }
 
-        public bool IsPayed(OleDbConnection conn, int mois, int annee)
+        public bool IsPayed(OleDbConnection conn, int mois, int annee, DateTime dateVerif)
         {
-            string condition = "idBox = ? and mois = ? and annee = ?";
-            var paramsList = new List<object> { this.Id, mois, annee };
-            var result = BaseModel.ReadData(conn, "Payement", "montant", condition, paramsList);
-            if (result.Count == 1 && Convert.ToDouble(result[0][0]) == GetPrix(mois, annee, conn))
+            double valueatdate = GetValueAtDate(conn, mois, annee, dateVerif);
+            if (valueatdate == GetPrix(mois, annee, conn))
             {
                 return true;
             }
             return false;
         }
+
+
 
         public Market GetMarket(OleDbConnection conn)
         {
@@ -104,8 +106,8 @@ namespace tsenacsharp.Models
 
         public Payement GetLastInsert(OleDbConnection conn, int idTenant)
         {
-            string condition = "idBox = ? ORDER BY id DESC";
-            var paramsList = new List<object> { this.Id };
+            string condition = "idBox = ? AND idTenant= ? ORDER BY id DESC";
+            var paramsList = new List<object> { this.Id, idTenant };
             var result = BaseModel.ReadData(conn, "Payement", "id, idBox, idTenant, montant, mois, annee, date_payement", condition, paramsList);
 
             if (result.Count >= 1)
@@ -141,59 +143,85 @@ namespace tsenacsharp.Models
             return new Dictionary<string, object> { { "mois", payement.Mois }, { "annee", payement.Annee }, { "montant", payement.Montant } };
         }
 
-        public double GetValueAtDate(int mois, int annee, OleDbConnection conn)
+        public double GetValueAtDate(OleDbConnection conn, int mois, int annee, DateTime dateVerif)
         {
-            string condition = "idBox = ? and mois = ? and annee = ?";
+            // Définir la condition pour filtrer les enregistrements
+            string condition = "idBox = ? AND mois = ? AND annee = ? AND (YEAR(date_payement) < YEAR(?) OR (YEAR(date_payement) = YEAR(?) AND MONTH(date_payement) <= MONTH(?)))";
+
+            var paramsList = new List<object> { this.Id, mois, annee, dateVerif, dateVerif, dateVerif };
+
+            var result = BaseModel.ReadData(conn, "Payement", "SUM(montant) as total", condition, paramsList);
+
+            return result.Count == 1 && result[0][0] != DBNull.Value ? Convert.ToDouble(result[0][0]) : 0;
+        }
+
+        public double GetValue(OleDbConnection conn, int mois, int annee)
+        {
+            string condition = "idBox = ? AND mois = ? AND annee = ?";
+
             var paramsList = new List<object> { this.Id, mois, annee };
-            var result = BaseModel.ReadData(conn, "Payement", "montant", condition, paramsList);
-            return result.Count == 1 ? Convert.ToDouble(result[0][0]) : 0;
+
+            var result = BaseModel.ReadData(conn, "Payement", "SUM(montant) as total", condition, paramsList);
+
+            return result.Count == 1 && result[0][0] != DBNull.Value ? Convert.ToDouble(result[0][0]) : 0;
         }
 
         public bool EstLibre(OleDbConnection conn, int mois, int annee)
         {
-            DateTime dateVerif = new DateTime(annee, mois, 1);
-            string query = "SELECT date_action, type_action FROM Location WHERE idBox = ? ORDER BY date_action ASC";
-            var results = BaseModel.ReadData(conn, query, "date_action, type_action", "idBox = ?", new List<object> { this.Id });
+            var dateVerif = new DateTime(annee, mois, 1);
 
-            List<Tuple<DateTime, DateTime?>> contrats = new List<Tuple<DateTime, DateTime?>>();
-            DateTime? debutLocation = null;
+            string query = @"
+        SELECT date_action, type_action 
+        FROM Location 
+        WHERE idBox = ? 
+        ORDER BY date_action ASC
+    ";
 
-            foreach (var result in results)
+            using (var command = new OleDbCommand(query, conn))
             {
-                DateTime dateAction = Convert.ToDateTime(result[0]);
-                if (Convert.ToInt32(result[1]) == 0)
+                command.Parameters.AddWithValue("@idBox", this.Id);
+                using (var reader = command.ExecuteReader())
                 {
-                    debutLocation = dateAction;
-                }
-                else if (Convert.ToInt32(result[1]) == 1 && debutLocation.HasValue)
-                {
-                    contrats.Add(Tuple.Create(debutLocation.Value, (DateTime?)dateAction));
+                    var contrats = new List<Tuple<DateTime, DateTime?>>();
+                    DateTime? debutLocation = null;
 
-                    debutLocation = null;
-                }
-            }
+                    while (reader.Read())
+                    {
+                        DateTime dateAction = (DateTime)reader["date_action"];
+                        int typeAction = (int)reader["type_action"];
 
-            if (debutLocation.HasValue)
-            {
-                contrats.Add(Tuple.Create(debutLocation.Value, (DateTime?)null));
-            }
+                        if (typeAction == 0) 
+                        {
+                            debutLocation = dateAction;
+                        }
+                        else if (typeAction == 1 && debutLocation.HasValue) 
+                        {
+                            contrats.Add(Tuple.Create(debutLocation.Value, (DateTime?)dateAction));
+                            debutLocation = null;
+                        }
+                    }
 
-            foreach (var contrat in contrats)
-            {
-                if (contrat.Item1 <= dateVerif && (!contrat.Item2.HasValue || dateVerif <= contrat.Item2.Value))
-                {
-                    return false;
+                    if (debutLocation.HasValue)
+                    {
+                        contrats.Add(Tuple.Create(debutLocation.Value, (DateTime?)null));
+                    }
+
+                    foreach (var contrat in contrats)
+                    {
+                        if (contrat.Item1 <= dateVerif && (!contrat.Item2.HasValue || dateVerif <= contrat.Item2.Value))
+                        {
+                            return false; 
+                        }
+                    }
                 }
             }
 
             return true;
         }
-
         public Tenant GetLocataire(OleDbConnection conn, int mois, int annee)
         {
             DateTime dateVerif = new DateTime(annee, mois, 1);
-            string query = "SELECT idTenant, date_action, type_action FROM Location WHERE idBox = ? ORDER BY date_action ASC";
-            var results = BaseModel.ReadData(conn, query, "idTenant, date_action, type_action", "idBox = ?", new List<object> { this.Id });
+            var results = BaseModel.ReadData(conn, "Location", "idTenant, date_action, type_action", "idBox = ? ORDER BY date_action ASC", new List<object> { this.Id });
 
             Tenant locataireActuel = null;
             DateTime? debutLocation = null;
